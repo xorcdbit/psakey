@@ -1,0 +1,101 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+DOC pour API SMEG+
+Keyword reperé dans le fichier SPY\abs_symbols_base.txt obtenu grace à la commande Cheat Code "Spystore"
+
+***********************************************************(1)
+= top.GetCurrentPosition.Altitude();   //*01  x6					04d2860c T _ZN15CurrentPosition8AltitudeEv
+= top.GetCurrentPosition.Latitude();   //*02  x6					04d288e4 T _ZN15CurrentPosition8LatitudeEv
+= top.GetCurrentPosition.Longitude();  //*03  x6					04d28bbc T _ZN15CurrentPosition9LongitudeEv
+= top.GetCurrentPosition.Street();     //*04  x6					04d2edc8 T _ZN15CurrentPosition6StreetEv
+= top.GetCurrentPosition.Town();       //*05  x6					04d2ea60 T _ZN15CurrentPosition4TownEv
+= top.GetCurrentPosition.Country();    //*06  x6					04d2e6f8 T _ZN15CurrentPosition7CountryEv
+= top.GetCurrentPosition.QualityIndex();		 $$$$$$$$$$$$$$$$	04d2833c T _ZN15CurrentPosition12QualityIndexEv
+***********************************************************(2)
+= top.GetDestination.Altitude();       //*01  x8					04
+= top.GetDestination.Latitude();       //*02  x8					04
+= top.GetDestination.Longitude();      //*03  x8					04
+= top.GetDestination.Street();         //*04  x8					04
+= top.GetDestination.Town();           //*05  x8					04
+= top.GetDestination.Country();        //*06  x8					04
+= top.GetDestination.ETAHours();       //*07  x8					04d2b18c T _ZN11Destination8ETAHoursEv
+= top.GetDestination.ETAMinutes();     //*08  x8					04d2aebc T _ZN11Destination10ETAMinutesEv
+***********************************************************(3)
+= top.GetNextWaypoint.Altitude();      //*01  x8
+= top.GetNextWaypoint.Latitude();      //*02  x8
+= top.GetNextWaypoint.Longitude();     //*03  x8
+= top.GetNextWaypoint.Street();        //*04  x8
+= top.GetNextWaypoint.Town();          //*05  x8
+= top.GetNextWaypoint.Country();       //*06  x8
+= top.GetNextWaypoint.ETAHours();      //*07  x8					04d2b18c T _ZN11Destination8ETAHoursEv
+= top.GetNextWaypoint.ETAMinutes();    //*08  x8					04d2aebc T _ZN11Destination10ETAMinutesEv
+***********************************************************(4)
+= top.GetSource.State();      		        //*01  x1
+= top.GetSourceRadio.PTY(); 	  			//*01  x1				04d3dfc4 T _ZN11SourceRadio3PTYEv
+= top.GetSourceRadio.TAE(); 		  		//*02  x1				04d3e2c0 T _ZN11SourceRadio2TAEv
+= top.GetSourceRadio.RDS(); 	  			//*03  x1				04d3e5cc T _ZN11SourceRadio3RDSEv
+= top.GetSourceRadio.Text();     		 	//*04  x1    		04d3e8d8 T _ZN11SourceRadio4TextEv
+= top.GetSourceRadio.Preset(); 				//*05  x1				04d3ec6c T _ZN11SourceRadio6PresetEv
+= top.GetSourceRadio.Frequency(); 	  //*06  x1				04d3ef68 T _ZN11SourceRadio9FrequencyEv
+= top.GetSourceRadio.PSName();       	//*07  x1				04d3f2a8 T _ZN11SourceRadio6PSNameEv
+= top.GetSourceRadio.Band();          //*08  x1				04d3f63c T _ZN11SourceRadio4BandEv
+= top.GetSourceMedia.MediaState();		//*01  x1				04d3fc3c T _ZN11SourceMedia10MediaStateEv
+= top.GetSourceMedia.TypeName();			//*02  x1				04d3ff38 T _ZN11SourceMedia8TypeNameEv
+= top.GetSourceMedia.AlbumName();			//*03  x1				04d40234 T _ZN11SourceMedia9AlbumNameEv
+= top.GetSourceMedia.ArtistName();		//*04  x1				04d405c8 T _ZN11SourceMedia10ArtistNameEv
+= top.GetSourceMedia.FolderName();		//*05  x1				04d4095c T _ZN11SourceMedia10FolderNameEv
+= top.GetSourceMedia.TotalFolder();		//*06  x1				04d40cf0 T _ZN11SourceMedia11TotalFolderEv
+= top.GetSourceMedia.FolderNumber();	//*07  x1				04d40fec T _ZN11SourceMedia12FolderNumberEv
+= top.GetSourceMedia.TrackName();			//*08  x1				04d412e8 T _ZN11SourceMedia9TrackNameEv
+= top.GetSourceMedia.TotalTracks();		//*09  x1				04d4167c T _ZN11SourceMedia11TotalTracksEv
+= top.GetSourceMedia.CurrentTrack();	//*10  x1				04d41978 T _ZN11SourceMedia12CurrentTrackEv
+***********************************************************(5)
+= top.GetCar.VIN();                    //*01  x7					04d2f130 T _ZN3Car3VINEv
+= top.GetCar.DrivingState();           //*02  x7					04d29a1c T _ZN3Car12DrivingStateEv
+= top.GetCar.FuelType();               //*03  x7					04d29d1c T _ZN3Car8FuelTypeEv
+= top.GetCar.Speed();                  //*04  x7					04d29744 T _ZN3Car5SpeedEv
+= top.GetCar.Mileage();                //*05  x7					04d29454 T _ZN3Car7MileageEv
+= top.GetCar.Autonomy();               //*06  x7					04d29164 T _ZN3Car8AutonomyEv
+= top.GetCar.OffsetUTC();              //*07  x7					04d28e94 T _ZN3Car9OffsetUTCEv
+													???????????????	04d32324 T _ZN3CarD0Ev
+***********************************************************(6)
+= top.GetDevice.SoftwareRelease();     //*01  x4					04d458a4 T _ZN6Device15SoftwareReleaseEv
+= top.GetDevice.HardwareRelease();     //*02  x4					04d45598 T _ZN6Device15HardwareReleaseEv
+= top.GetDevice.SupplierId();          //*03  x4					04d4528c T _ZN6Device10SupplierIdEv
+= top.GetDevice.MapVersion();          //*04  x4					04d44f80 T _ZN6Device10MapVersionEv
+***********************************************************(7)
+= top.Get.DongleIdentification();      //*01  x1
+***********************************************************(8)
+top.DongleGeolocation = {//*08    x0
+***********************************************************(9)
+= top.GetUnits.Fuel();                //*01   x4					04d3a84c T _ZN5Units4FuelEv
+= top.GetUnits.Distance();            //*02   x4					04d3a30c T _ZN5Units8DistanceEv
+= top.GetUnits.Speed();               //*03   x4					04d39dcc T _ZN5Units5SpeedEv
+= top.GetUnits.Consumption();         //*04   x4					04d397f8 T _ZN5Units11ConsumptionEv
+***********************************************************(10)
+= top.GetCarTrip1.Mileage();           //*01   x3					04d2ba24 T _ZN4Trip7MileageEv
+= top.GetCarTrip1.Consumption();       //*02   x3					04d2b734 T _ZN4Trip11ConsumptionEv
+= top.GetCarTrip1.AverageSpeed();      //*03   x3					04d2b45c T _ZN4Trip12AverageSpeedEv
+***********************************************************(11)
+= top.GetCarTrip2.Mileage();           //*01   x3
+= top.GetCarTrip2.Consumption();       //*02   x3
+= top.GetCarTrip2.AverageSpeed();      //*03   x3
+***********************************************************(12)
+= top.GetCarTime.Hours();               //*01   x2				    04d2bd14 T _ZN7CarTime7MinutesEv
+= top.GetCarTime.Minutes();             //*01   x2				    04d2bfe4 T _ZN7CarTime5HoursEv
+***********************************************************(13)
+top.JavascriptBinding.GetPortalOnScreen');							04d2a82c T _ZNK7Binding17GetPortalOnScreenEv
+top.JavascriptBinding.GetInternetStatus');							04d2ab74 T _ZNK7Binding17GetInternetStatusEv
+top.JavascriptBinding.LaunchGuidance');						  		04c905f0 T _ZN18C_HMI_INT_APP_BASE36LaunchGuidanceFromPortalNotificationEv
+top.JavascriptBinding.LaunchPhoneCall');					  		04c88320 T _ZN18C_HMI_INT_APP_BASE15launchPhoneCallEv
+top.JavascriptBinding.AddURL2Bookmarks');
+top.JavascriptBinding.StoreContact2AdressBook');
+top.JavascriptBinding.StoreVcard2Contact');
+top.JavascriptBinding.StoreVcard2POI');
+top.JavascriptBinding.PortalNotification');
+top.JavascriptBinding.SetCardgetPortal');
+top.JavascriptBinding.InternalZarOn');
+top.JavascriptBinding.InternalZarOff');
+top.JavascriptBinding.PopupPMS');
+top.JavascriptBinding.GetNetworkStatus" : géré par la clé
+top.DongleStorage : géré par la clé
+***********************************************************(14)
